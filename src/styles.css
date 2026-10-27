@@ -283,4 +283,43 @@ h1,h2,h3,p{margin-top:0}h1,h2{font-family:Manrope,sans-serif;letter-spacing:-1.8
   .awards-grid{grid-template-columns:1fr}
   .award-photo-button{height:280px}
 }
+.current-role {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 18px 0;
+  padding: 14px 16px;
+  border: 1px solid rgba(94, 234, 212, 0.25);
+  border-radius: 12px;
+  background: rgba(20, 184, 166, 0.07);
+  max-width: 440px;
+}
+
+.role-status {
+  width: 9px;
+  height: 9px;
+  margin-top: 6px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #2dd4bf;
+  box-shadow: 0 0 10px rgba(45, 212, 191, 0.6);
+}
+
+.current-role strong {
+  display: block;
+  color: #5eead4;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.current-role p {
+  margin: 4px 0;
+  color: #f1f5f9;
+  font-size: 14px;
+}
+
+.current-role small {
+  color: #94a3b8;
+  font-size: 12px;
+}
 

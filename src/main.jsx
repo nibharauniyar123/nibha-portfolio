@@ -338,6 +338,14 @@ function App() {
             <h1>Hi, I’m <span>Nibha Kumari Gupta</span></h1>
             <p className="hero-title">B.Sc. CSIT Graduate <i>·</i> Web Development <i>·</i> IT Support</p>
             <p className="hero-intro">I enjoy building useful web experiences, learning new technologies and solving problems through code. I also bring hands-on experience in computer operations and administrative support.</p>
+            <div className="current-role">
+  <span className="role-status"></span>
+  <div>
+    <strong>Currently Working as a Counselor Head</strong>
+    <p>Saral Shikshya Academy</p>
+    <small>Bagbazar, Kathmandu, Nepal</small>
+  </div>
+</div>
             <div className="hero-actions">
               <a className="button button-primary" href="#experience">Explore my experience <ArrowRight size={17} /></a>
               <a className="button button-secondary" href="/Nibha-Kumari-Gupta-CV.pdf" target="_blank" rel="noreferrer"><Download size={17} /> View CV</a>
